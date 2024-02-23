@@ -20,7 +20,7 @@ pipeline {
                 # source mlip/bin/activate
 
                 # TODO Complete the command to run pytest
-                sudo /home/team05/miniconda3/bin/conda run -n mlip python pytest
+                sudo /home/team05/miniconda3/bin/conda run -n mlip pytest
                 # python pytest
 
                 # echo 'pytest not runned'
